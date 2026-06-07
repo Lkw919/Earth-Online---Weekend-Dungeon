@@ -1,0 +1,41 @@
+{
+  "郑州": {
+    "童心亲子餐厅": {
+      "price_per_person": 98,
+      "queue_minutes": 15,
+      "rating": 4.6,
+      "tags": ["亲子", "儿童菜单", "低卡", "商场停车方便"],
+      "suitable_for": ["孩子", "家庭", "减肥"]
+    },
+    "河南博物院": {
+      "price_per_person": 0,
+      "queue_minutes": 8,
+      "rating": 4.8,
+      "tags": ["文化", "亲子", "室内", "需预约"],
+      "suitable_for": ["孩子", "家庭", "长辈"]
+    },
+    "紫荆山公园": {
+      "price_per_person": 0,
+      "queue_minutes": 0,
+      "rating": 4.6,
+      "tags": ["公园", "散步", "免费"],
+      "suitable_for": ["孩子", "家庭", "朋友"]
+    }
+  },
+  "北京": {
+    "中国科技馆": {
+      "price_per_person": 60,
+      "queue_minutes": 12,
+      "rating": 4.8,
+      "tags": ["科技馆", "亲子", "室内", "互动"],
+      "suitable_for": ["孩子", "家庭"]
+    },
+    "自然博物馆": {
+      "price_per_person": 0,
+      "queue_minutes": 10,
+      "rating": 4.7,
+      "tags": ["博物馆", "亲子", "室内"],
+      "suitable_for": ["孩子", "家庭", "长辈"]
+    }
+  }
+}
