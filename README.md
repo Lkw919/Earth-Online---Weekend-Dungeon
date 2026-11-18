@@ -1,5 +1,13 @@
 # 地球 Online · 周末副本
 
+## English summary
+
+A Meituan AI hackathon project that turns "where should I go this weekend?" into an executable city quest. The user teams up with an in-app guide, gives one sentence or taps a few chips, and gets back an explainable itinerary plus a one-click execution path — queue numbers, ticket bookings, taxi pickups, each behind a real tool interface with a mock implementation — ending in a redeemable voucher. The same run is wrapped as a game: team building, a main quest, agent-managed errands, and a ticket you can hand in at the end.
+
+- **Stack:** LangGraph (four agents) · FastAPI · React mobile client · SSE progress stream
+- **Budgets:** plan generated in ≤ 30 s (POI search in three parallel buckets, ranked locally), tool call ≤ 3 s (AMap with a 3 s timeout and a mock fallback), end to end ≤ 2 min
+- **Start here:** [design](docs/design.md) · [tool catalogue](docs/tools.md)
+
 美团 AI 黑客松项目：把「周末去哪玩」从普通路线推荐升级为一场可执行的城市副本。用户和专属向导「小团」组队，只需要一句自然语言或几次点击，就能得到可解释的路线、一键托管的执行动作、排号/票务/打车等 Mock API 闭环，以及最终的核销通关票据。
 
 ## 文档入口（打开项目先看这里）
